@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+span{
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 150px;
+    font-style: oblique;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+}
+a:active{
+    background-color: red;
+    font-size: larger;
+}
+a:hover{
+    background-color: blue;
+}
