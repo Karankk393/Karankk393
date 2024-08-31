@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+        }
+        .hola{
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            
+        }
+        @media (max-width:500px){
+            /* h1{
+                background-color: yellow;
+            } */
+             div{
+                display: flex;
+                /* flex-direction: column; */
+             }
+        }
+        @media (min-width:500px){
+            h1{
+                background-color: blue;
+            }
+        }
+        h2{
+            background-color: pink;
+            width: 200px;
+            height: 200px;
+        }
+        .momo{
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="hola">
+        <h1>Box1</h1>
+        <h1>Bx2</h1>
+        <h1>Box3</h1>
+        <h1>Box4</h1>
+    </div>
+    <div class="momo">
+        <h2>kullu</h2>
+        <h2>manali</h2>
+        <h2>shimla</h2>
+        <h2>spiyil</h2>
+    </div>
+</body>
+</html>
